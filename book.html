@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book a Ride | Prestige Electric Elective Transportation</title>
+<meta name="description" content="Book a Tesla ride with Prestige Electric Elective Transportation by phone, text, email, or the online request form.">
+<meta name="theme-color" content="#03060F">
+<link rel="icon" type="image/png" href="images/favicon.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand">
+      <img src="images/emblem.png" alt="PEET crest" height="48" width="43">
+      <span class="brand-text">
+        <span class="brand-name">PEET</span>
+        <span class="brand-sub">Prestige Electric Elective Transportation</span>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services &amp; Rates</a></li>
+      <li><a href="book.html" class="active">Book a Ride</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-header">
+  <div class="wrap">
+    <div class="eyebrow">Book a Ride</div>
+    <h1>Your ride in three steps</h1>
+    <p>Send your route, confirm your price, and enjoy the ride. Reach us whichever way is easiest.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="card-grid steps">
+      <div class="step">
+        <h3>Send your route</h3>
+        <p>Share your pickup location, destination, date, and time using the form below or a quick text.</p>
+      </div>
+      <div class="step">
+        <h3>Confirm your price</h3>
+        <p>Your rate is based on the distance and service you choose. Any extras are explained before the ride.</p>
+      </div>
+      <div class="step">
+        <h3>Enjoy the ride</h3>
+        <p>Relax in a quiet, comfortable Tesla on a trip planned around your schedule.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap contact-grid">
+    <div>
+      <h2 style="font-size:1.5rem; margin-bottom:18px;">Contact us directly</h2>
+      <p style="color:var(--muted);">Prefer to skip the form? Call, text, or email anytime.</p>
+      <ul class="info-list">
+        <li><span class="label">Phone</span><a href="tel:+12032238811" data-contact="phone" data-show>(203) 223-8811</a></li>
+        <li><span class="label">Text</span><a href="sms:+12032238811" data-contact="text">Send a text message</a></li>
+        <li><span class="label">Email</span><a href="mailto:peetrides@gmail.com" data-contact="email" data-show>peetrides@gmail.com</a></li>
+      </ul>
+      <a href="mailto:peetrides@gmail.com?subject=Ride%20Request" data-contact="email" class="btn btn-primary">Email for a Quote</a>
+    </div>
+
+    <div>
+      <h2 style="font-size:1.5rem; margin-bottom:18px;">Request a ride</h2>
+      <form class="booking-form" id="booking-form">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" required>
+        </div>
+        <div class="field full">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+        </div>
+        <div class="field full">
+          <label for="service">Service</label>
+          <select id="service">
+            <option>Airport Transfer (JFK, LGA, EWR, BDL, HPN)</option>
+            <option>Standard Ride</option>
+            <option>Event Package (Wedding, Prom, VIP)</option>
+            <option>Executive &amp; Business Travel</option>
+            <option>Subscription Package</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date">Date</label>
+          <input type="date" id="date" required>
+        </div>
+        <div class="field">
+          <label for="time">Pickup time</label>
+          <input type="time" id="time">
+        </div>
+        <div class="field full">
+          <label for="pickup">Pickup location</label>
+          <input type="text" id="pickup" required>
+        </div>
+        <div class="field full">
+          <label for="dropoff">Destination</label>
+          <input type="text" id="dropoff">
+        </div>
+        <div class="field full">
+          <label for="passengers">Passengers</label>
+          <input type="number" id="passengers" min="1" max="8" value="1">
+        </div>
+        <div class="field full">
+          <label for="notes">Extra stops, luggage, or other details</label>
+          <textarea id="notes" placeholder="Extra stop, large luggage, return trip, VIP service, etc."></textarea>
+        </div>
+        <div class="field full">
+          <button type="submit" class="btn btn-primary">Send Request</button>
+        </div>
+        <p class="form-note">Clicking "Send Request" opens your email app with these details filled in and addressed to PEET. Press send there to deliver it.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Prestige Electric Elective Transportation</div>
+        <p style="margin:0; max-width:36ch;">Your electric choice for luxury travel.</p>
+      </div>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services &amp; Rates</a></li>
+        <li><a href="book.html">Book a Ride</a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Prestige Electric Elective Transportation. All rights reserved.</span>
+      <span><a href="tel:+12032238811" data-contact="phone" data-show>(203) 223-8811</a> &middot; <a href="mailto:peetrides@gmail.com" data-contact="email" data-show>peetrides@gmail.com</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
