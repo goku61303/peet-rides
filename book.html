@@ -72,6 +72,7 @@
     <div>
       <h2 style="font-size:1.5rem; margin-bottom:18px;">Request a ride</h2>
       <form class="booking-form" id="booking-form">
+        <input type="checkbox" id="botcheck" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="field">
           <label for="name">Full name</label>
           <input type="text" id="name" required>
@@ -122,7 +123,8 @@
         <div class="field full">
           <button type="submit" class="btn btn-primary">Send Request</button>
         </div>
-        <p class="form-note">Clicking "Send Request" opens your email app with these details filled in and addressed to PEET. Press send there to deliver it.</p>
+        <p class="form-status" role="status" aria-live="polite"></p>
+        <p class="form-note">Your request goes straight to our inbox. We will contact you to confirm your price.</p>
       </form>
     </div>
   </div>

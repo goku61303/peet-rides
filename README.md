@@ -3,10 +3,6 @@
 A 3-page static site (Home, Services & Rates, Book a Ride) in black, gold and navy to match the PEET logo.
 
 
-## Contact info
-
-
-
 
 ## Files
 

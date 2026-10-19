@@ -260,3 +260,8 @@ form.booking-form { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; ba
 
 a:focus-visible, button:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
+
+/* ---------- Form status message ---------- */
+.form-status { grid-column: 1 / -1; margin: 0; font-size: 0.9rem; font-weight: 500; min-height: 1.2em; }
+.form-status.ok { color: var(--gold-hi, #EDCB78); }
+.form-status.err { color: #FF8A80; }
