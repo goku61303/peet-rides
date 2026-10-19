@@ -1,4 +1,4 @@
-# Prestige Electric Elective Rides (PEER) — Website
+# Prestige Electric Elective Transportation (PEET) — Website
 
 A 3-page static site (Home, Services & Rates, Book a Ride) in black, gold and navy to match the PEER logo.
 Plain HTML/CSS/JS with no build step, so it deploys to Vercel with zero configuration.
@@ -12,7 +12,7 @@ const CONTACT = {
   email: 'ridewithpeer@gmail.com',
   phoneDisplay: '(203) 223-8811',
   phoneDigits: '12032238811',   // digits only, with country code (US = 1)
-  businessName: 'Prestige Electric Elective Rides'
+  businessName: 'Prestige Electric Elective Transportation'
 };
 ```
 
